@@ -1,4 +1,7 @@
 
+//Q: Given which number are Prime? 
+//code:
+//-----
 const int N = 1e5 + 7;
 vector<long long> prime;
 void sieve(int N){
@@ -16,3 +19,6 @@ void sieve(int N){
         }
     }
 }
+
+
+
