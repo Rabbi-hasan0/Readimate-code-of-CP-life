@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+void max_subarray_sum(vector<int> &a) {
+    int ans = a[0], ans_l = 0, ans_r = 0;
+    int sum = 0, minus_pos = -1, n = a.size();
+    for (int r = 0; r < n; ++r) {
+        sum += a[r];
+        if (sum > ans) {
+            ans = sum;
+            ans_l = minus_pos + 1;
+            ans_r = r;
+        }
+        if (sum < 0) {
+            sum = 0;
+            minus_pos = r;
+        }
+    }
+    //cout << ans << ' ' << ans_l << ' ' << ans_r << '\n';
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>max_subarray_sum</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+const int N = 1e5;
+vector<int> g[N];
+bool vis[N];
+void dfs(int n) {
+  vis[n] = true;
+  for(auto &i: g[n]) {
+    if(!vis[i]) {
+        dfs(i);
+    }
+  }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>dfs</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+
+// n! er last e koida zero ache seita ber kore dibe
+int findZeros(int n){ // [O(logn)];
+    int i = 5, cnt = 0;
+    while (n / i) {
+        cnt += n / i;
+        i *= 5;
+    }
+    return cnt;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>trailingZero</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

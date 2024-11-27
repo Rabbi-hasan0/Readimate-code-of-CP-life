@@ -1,0 +1,31 @@
+<snippet>
+	<content><![CDATA[
+// pre_build it is prime or not 
+const int MAXN = 2e6 + 5;
+vector<bool> build_is_prime() {
+    vector<bool> p(MAXN, true);
+    p[0] = p[1] = false;
+    for (int i = 2; i * i < MAXN; ++i) {
+        if (p[i]){
+            for (int j = i * i; j < MAXN; j += i){
+                p[j] = false;
+            }
+        }
+    }
+    return p;
+}
+
+// Just check every step...
+bool isprime(int n) {
+    if (n < 2) return false;
+    for(int i = 2; i <= (int)sqrt(n); i++){
+        if (n % i == 0) return false;
+    }
+    return true;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	!-- <tabTrigger>isPrime</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,43 @@
+<snippet>
+	<content><![CDATA[
+#include<bits/stdc++.h>
+#define Start_Coding() ios_base::sync_with_stdio(false);cin.tie(nullptr)
+#define all(v) v.begin(),v.end()
+#define yes "YES"
+#define no "NO"
+#define pi pair<int, int>
+#define vpi vector<pi>
+#define pb push_back
+#define to_decimal() binary.to_ulong()
+#define get_msb(x) __lg(x);
+#define elif else if
+#define print(x) cout << x << '\n'
+#define u128 unsigned __int128;
+
+using namespace std;
+typedef unsigned long long ull;
+typedef long long ll;
+
+const int N = 2e5 + 5, mod = 1e9 + 7;
+//int prefix_xor[N], a[N], n;
+//int N = 2e5 + 7, n;
+
+void solved(){
+   $1
+}
+
+int32_t main(){
+    Start_Coding();
+    int T = 1;
+    cin >> T;
+    while(T--){
+      solved();
+    }
+  return 0;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	!-- <tabTrigger>pp</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
