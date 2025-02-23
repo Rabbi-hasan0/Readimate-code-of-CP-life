@@ -117,28 +117,28 @@ A = \frac{1}{2} r^2 \theta
   ```
 
 ---
-### 5. Sphere Volume and Surface Area
+### 5. গোলকের আয়তন এবং পৃষ্ঠ ক্ষেত্রফল
 
-#### 5.1 Volume of a Sphere
-The volume \( V \) of a sphere is given by:
+#### 5.1 গোলকের আয়তন
+গোলকের আয়তন \( V \) হিসাব করার সূত্র হল:
 
 \[
 V = \frac{4}{3} \pi r^3
 \]
 
-Where:
-- \( V \) = volume of the sphere
-- \( r \) = radius of the sphere
+এখানে:
+- \( V \) = গোলকের আয়তন
+- \( r \) = গোলকের ব্যাসার্ধ
 - \( \pi \approx 3.14159 \)
 
-#### 5.2 Surface Area of a Sphere
-The surface area \( A \) of a sphere is given by:
+#### 5.2 গোলকের পৃষ্ঠ ক্ষেত্রফল
+গোলকের পৃষ্ঠ ক্ষেত্রফল \( A \) হিসাব করার সূত্র হল:
 
 \[
 A = 4 \pi r^2
 \]
 
-Where:
-- \( A \) = surface area of the sphere
-- \( r \) = radius of the sphere
+এখানে:
+- \( A \) = গোলকের পৃষ্ঠ ক্ষেত্রফল
+- \( r \) = গোলকের ব্যাসার্ধ
 
