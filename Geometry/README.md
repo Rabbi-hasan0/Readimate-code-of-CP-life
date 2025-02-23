@@ -117,4 +117,28 @@ A = \frac{1}{2} r^2 \theta
   ```
 
 ---
+### 5. Sphere Volume and Surface Area
+
+#### 5.1 Volume of a Sphere
+The volume \( V \) of a sphere is given by:
+
+\[
+V = \frac{4}{3} \pi r^3
+\]
+
+Where:
+- \( V \) = volume of the sphere
+- \( r \) = radius of the sphere
+- \( \pi \approx 3.14159 \)
+
+#### 5.2 Surface Area of a Sphere
+The surface area \( A \) of a sphere is given by:
+
+\[
+A = 4 \pi r^2
+\]
+
+Where:
+- \( A \) = surface area of the sphere
+- \( r \) = radius of the sphere
 
