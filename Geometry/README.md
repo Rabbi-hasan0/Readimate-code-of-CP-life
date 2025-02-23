@@ -1,4 +1,4 @@
-# Geometry Laws for Competitive Programming
+### Geometry Laws for Competitive Programming
 
 ## Basic Geometry Formulas
 
